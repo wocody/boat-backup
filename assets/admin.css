@@ -1,0 +1,46 @@
+/* Inherit the surrounding WordPress administration system. */
+.boat-backup { max-width: 1000px; }
+.boat-backup [hidden] { display: none !important; }
+.boat-intro { margin-bottom: 24px; max-width: 72ch; }
+.boat-panel { padding: 16px 0 24px; }
+.boat-panel > p, .boat-operation > p, #boat-confirm > p { max-width: 72ch; }
+.boat-panel h2 { margin: 12px 0; }
+.boat-panel details { margin-top: 24px; }
+.boat-panel summary { cursor: pointer; font-weight: 600; }
+.boat-panel input[type="file"] { max-width: 100%; }
+#boat-database-report { margin-top: 24px; overflow-wrap: anywhere; }
+#boat-database-report summary { cursor: pointer; font-weight: 600; }
+#boat-database-tables { max-height: 24rem; overflow: auto; padding-inline-start: 24px; }
+.boat-operation { padding: 8px 24px 24px; margin: 24px 0; border: 1px solid #c3c4c7; background: #fff; }
+.boat-operation h2 { margin: 16px 0 8px; }
+.boat-progress { display: flex; align-items: center; gap: 12px; margin: 16px 0; max-width: 600px; }
+.boat-progress progress { width: 100%; height: 16px; accent-color: #2271b1; }
+.boat-progress span { min-width: 4ch; font-variant-numeric: tabular-nums; }
+.boat-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+#boat-confirm { border-top: 1px solid #dcdcde; margin-top: 24px; padding-top: 8px; }
+.boat-backups th:first-child { width: 38%; }
+.boat-backups td { vertical-align: middle; overflow-wrap: anywhere; }
+.boat-backups .button { margin: 2px 4px 2px 0; }
+.boat-storage { border-top: 1px solid #c3c4c7; padding-top: 16px; overflow-wrap: anywhere; }
+.boat-storage code { overflow-wrap: anywhere; }
+.boat-backup :focus-visible { outline: 2px solid #2271b1; outline-offset: 3px; }
+@media (max-width: 600px) {
+  .boat-operation { padding: 4px 16px 20px; }
+  .boat-backups thead { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .boat-backups tr { display: block; padding: 12px 4px; }
+  .boat-backups td { display: block; padding: 4px 8px; }
+  .boat-backups td[data-label]::before { content: attr(data-label) ": "; font-weight: 600; }
+  .boat-backup .nav-tab { margin-left: 4px; padding-inline: 12px; }
+}
+.boat-replace { margin: 16px 0; max-width: 72ch; }
+.boat-replace legend, .boat-advanced summary { font-weight: 600; }
+#boat-replace-rows { margin: 8px 0 0; padding: 0; list-style: none; }
+.boat-replace-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 8px 16px; padding: 8px 0; border-bottom: 1px solid #dcdcde; }
+.boat-replace-row label { display: flex; flex-direction: column; gap: 4px; flex: 1 1 14rem; }
+.boat-replace-row input { width: 100%; }
+.boat-option { display: block; margin: 8px 0; }
+#boat-done { margin-top: 16px; }
+.boat-protect { margin: 4px 0 8px 24px; }
+.boat-drop { padding: 16px; border: 2px dashed #c3c4c7; background: #fff; max-width: 600px; }
+.boat-drop.is-dragging { border-color: #2271b1; background: #f0f6fc; }
+#boat-unlock { border-top: 1px solid #dcdcde; margin-top: 24px; padding-top: 8px; }

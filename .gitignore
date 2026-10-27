@@ -1,0 +1,14 @@
+/vendor/
+/node_modules/
+/dist/
+/.cache/
+/.phpunit.cache/
+/.phpunit.result.cache
+/.env*
+/.impeccable/review/
+/.impeccable/config.local.json
+*.wpboat
+*.log
+.DS_Store
+*~
+/.private/

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<ruleset name="Boat Backup &amp; Migration">
+  <description>WordPress standards and PHP 7.4 compatibility.</description>
+  <file>boat-backup.php</file>
+  <file>uninstall.php</file>
+  <file>includes</file>
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+  <arg name="extensions" value="php"/>
+  <config name="testVersion" value="7.4-"/>
+  <rule ref="WordPress">
+    <!-- Exceptions are data, escaped at HTML output boundaries and encoded by REST. -->
+    <exclude name="WordPress.Security.EscapeOutput.ExceptionNotEscaped"/>
+  </rule>
+  <rule ref="PHPCompatibilityWP"/>
+</ruleset>

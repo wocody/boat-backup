@@ -1,0 +1,1181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boat Backup & Migration 0.3.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/boat-backup\n"
+"POT-Creation-Date: 2026-10-27T21:36:12+00:00\n"
+"PO-Revision-Date: 2026-10-27 15:30-0300\n"
+"Last-Translator: Wocody\n"
+"Language-Team: Wocody\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Plugin Name of the plugin
+#: boat-backup.php
+msgid "Boat Backup & Migration"
+msgstr "Boat Backup & Migration"
+
+#. Description of the plugin
+#: boat-backup.php
+msgid ""
+"Export, import and restore WordPress sites with local backups and no "
+"commercial size limit."
+msgstr ""
+"Exporte, importe e restaure sites WordPress com backups locais e sem limite "
+"comercial de tamanho."
+
+#. Author of the plugin
+#: boat-backup.php
+msgid "Wocody"
+msgstr "Wocody"
+
+#: includes/class-admin.php:46
+msgid "Checking database compatibility…"
+msgstr "Verificando a compatibilidade do banco de dados…"
+
+#: includes/class-admin.php:47
+msgid "Checking content files…"
+msgstr "Verificando arquivos do site…"
+
+#: includes/class-admin.php:48
+msgid "Exporting database…"
+msgstr "Exportando o banco de dados…"
+
+#: includes/class-admin.php:49
+msgid "Exporting content files…"
+msgstr "Exportando os arquivos do site…"
+
+#: includes/class-admin.php:50
+msgid "Finishing the backup…"
+msgstr "Finalizando o backup…"
+
+#: includes/class-admin.php:51
+msgid "Uploading backup…"
+msgstr "Enviando o backup…"
+
+#: includes/class-admin.php:52
+msgid "Verifying backup and staging files…"
+msgstr "Verificando o backup e preparando os arquivos…"
+
+#: includes/class-admin.php:53
+msgid "Checking the native SQL dump…"
+msgstr "Verificando o dump SQL nativo…"
+
+#: includes/class-admin.php:54
+msgid "Adding database.sql to the backup…"
+msgstr "Adicionando database.sql ao backup…"
+
+#: includes/class-admin.php:55
+msgid "Loading and adapting the staged database…"
+msgstr "Carregando e adaptando o banco de dados temporário…"
+
+#: includes/class-admin.php:56
+msgid "Backup verified. Review and confirm the restore below."
+msgstr "Backup verificado. Revise e confirme a restauração abaixo."
+
+#: includes/class-admin.php:57
+msgid "Restoring site. Keep this page open…"
+msgstr "Restaurando o site. Mantenha esta página aberta…"
+
+#: includes/class-admin.php:58
+msgid "Operation completed."
+msgstr "Operação concluída."
+
+#: includes/class-admin.php:59
+msgid "Your backup is ready to download."
+msgstr "Seu backup está pronto para baixar."
+
+#: includes/class-admin.php:60
+msgid ""
+"Site restored. Sign in with an administrator account from the source site."
+msgstr "Site restaurado. Entre com uma conta administrativa do site de origem."
+
+#: includes/class-admin.php:61
+msgid "Operation cancelled. The destination was preserved."
+msgstr "Operação cancelada. O destino foi preservado."
+
+#: includes/class-admin.php:62
+msgid "Paused. You can resume this operation."
+msgstr "Operação pausada. Você pode retomá-la."
+
+#: includes/class-admin.php:63
+msgid "The operation stopped. Review the error, then resume or cancel."
+msgstr "A operação parou. Verifique o erro e retome ou cancele."
+
+#: includes/class-admin.php:64
+msgid ""
+"The request failed. Check the connection, then resume. For a restore, reload "
+"this page to check whether it completed."
+msgstr ""
+"A solicitação falhou. Verifique a conexão e retome. Em uma restauração, "
+"recarregue a página para conferir se ela foi concluída."
+
+#: includes/class-admin.php:65
+msgid "Select the same .wpboat file to resume the upload."
+msgstr "Selecione o mesmo arquivo .wpboat para retomar o envio."
+
+#: includes/class-admin.php:66
+msgid ""
+"The selected file has a different size. Select the original backup or cancel "
+"the upload."
+msgstr ""
+"O arquivo selecionado tem outro tamanho. Selecione o backup original ou "
+"cancele o envio."
+
+#: includes/class-admin.php:67
+msgid "Download backup"
+msgstr "Baixar backup"
+
+#: includes/class-admin.php:68 includes/class-admin.php:233
+msgid "Created"
+msgstr "Criado em"
+
+#: includes/class-admin.php:69 includes/class-admin.php:234
+msgid "Size"
+msgstr "Tamanho"
+
+#: includes/class-admin.php:70
+msgid "Restore"
+msgstr "Restaurar"
+
+#: includes/class-admin.php:71
+msgid "Delete"
+msgstr "Excluir"
+
+#: includes/class-admin.php:72
+msgid ""
+"No backups yet. Export your site or upload a .wpboat file to get started."
+msgstr ""
+"Ainda não há backups. Exporte seu site ou envie um arquivo .wpboat para "
+"começar."
+
+#: includes/class-admin.php:73
+msgid "Permanently delete this backup file? This does not change the site."
+msgstr ""
+"Excluir este arquivo de backup permanentemente? Isso não altera o site."
+
+#: includes/class-admin.php:74
+msgid "Sign in to the restored site"
+msgstr "Entrar no site restaurado"
+
+#: includes/class-admin.php:75
+msgid "Waiting for the backup password…"
+msgstr "Aguardando a senha do backup…"
+
+#: includes/class-admin.php:76
+msgid "The passwords do not match."
+msgstr "As senhas não coincidem."
+
+#: includes/class-admin.php:77
+msgid "Backup label (leave empty to remove):"
+msgstr "Rótulo do backup (deixe vazio para remover):"
+
+#: includes/class-admin.php:78
+msgid "Label"
+msgstr "Rótulo"
+
+#: includes/class-admin.php:79
+msgid "I want to replace the matching files on this site."
+msgstr "Quero substituir os arquivos correspondentes deste site."
+
+#: includes/class-admin.php:80 includes/class-admin.php:143
+msgid ""
+"I have the source administrator credentials and want to replace this site."
+msgstr ""
+"Tenho as credenciais de administrador da origem e quero substituir este site."
+
+#. translators: %d: find and replace row number.
+#: includes/class-admin.php:82
+#, php-format
+msgid "Remove find and replace row %d"
+msgstr "Remover a linha %d de localizar e substituir"
+
+#: includes/class-admin.php:83
+msgid ""
+"Native SQL definitions are adapted for compatibility. Aria becomes MyISAM; "
+"foreign-key constraints and selected table options are removed. Engine "
+"fallback is automatic when applicable."
+msgstr ""
+"As definições SQL nativas são adaptadas para compatibilidade. Aria se torna "
+"MyISAM; as restrições de chave estrangeira e determinadas opções de tabela "
+"são removidas. A mudança de mecanismo é automática quando aplicável."
+
+#: includes/class-admin.php:109
+msgid ""
+"Move your site with a local backup. Export here, then restore on the "
+"destination."
+msgstr ""
+"Migre seu site com um backup local. Exporte aqui e restaure no destino."
+
+#: includes/class-admin.php:113
+msgid "Enable JavaScript to run and monitor migrations."
+msgstr "Ative o JavaScript para executar e acompanhar as migrações."
+
+#: includes/class-admin.php:116
+msgid "Current operation"
+msgstr "Operação atual"
+
+#: includes/class-admin.php:120
+msgid "Resume operation"
+msgstr "Retomar operação"
+
+#: includes/class-admin.php:121
+msgid "Pause"
+msgstr "Pausar"
+
+#: includes/class-admin.php:122
+msgid "Cancel operation"
+msgstr "Cancelar operação"
+
+#: includes/class-admin.php:126
+msgid ""
+"Open the Permalinks settings and save them once so the server rewrite rules "
+"match the restored site."
+msgstr ""
+"Abra as configurações de Links permanentes e salve-as uma vez para que as "
+"regras de reescrita do servidor correspondam ao site restaurado."
+
+#: includes/class-admin.php:126
+msgid "Permalinks settings"
+msgstr "Configurações de links permanentes"
+
+#: includes/class-admin.php:129
+msgid "Database compatibility"
+msgstr "Compatibilidade do banco de dados"
+
+#: includes/class-admin.php:134
+msgid "This backup is password protected. Enter its password to continue."
+msgstr "Este backup é protegido por senha. Digite a senha para continuar."
+
+#: includes/class-admin.php:135
+msgid "Unlock backup"
+msgstr "Desbloquear backup"
+
+#: includes/class-admin.php:138
+msgid ""
+"Database compatibility adjustments are automatic. Source foreign-key "
+"constraints are omitted and Aria tables are restored as MyISAM."
+msgstr ""
+"Os ajustes de compatibilidade do banco são automáticos. As restrições de "
+"chave estrangeira da origem são omitidas e as tabelas Aria são restauradas "
+"como MyISAM."
+
+#: includes/class-admin.php:139
+msgid "Restoring replaces the destination database and users."
+msgstr "A restauração substitui o banco de dados e os usuários do destino."
+
+#: includes/class-admin.php:140
+msgid ""
+"This backup contains no database. Only files are restored; this site keeps "
+"its database and users."
+msgstr ""
+"Este backup não contém banco de dados. Somente arquivos são restaurados; "
+"este site mantém seu banco de dados e seus usuários."
+
+#: includes/class-admin.php:141
+msgid ""
+"Each plugin, theme, media folder and other item in the backup replaces the "
+"item with the same name on this site. Items that exist only on this site are "
+"kept."
+msgstr ""
+"Cada plugin, tema, pasta de mídia e outro item do backup substitui o item de "
+"mesmo nome neste site. Itens que existem somente neste site são mantidos."
+
+#: includes/class-admin.php:142
+msgid ""
+"The destination address and server configuration stay the same. Previous "
+"files and tables are retained privately for recovery."
+msgstr ""
+"O endereço e a configuração do servidor do destino continuam os mesmos. Os "
+"arquivos e tabelas anteriores são mantidos de forma privada para recuperação."
+
+#: includes/class-admin.php:142
+msgid "You will need an administrator login from the source site."
+msgstr "Você precisará de um login de administrador do site de origem."
+
+#: includes/class-admin.php:144
+msgid "Restore this site"
+msgstr "Restaurar este site"
+
+#: includes/class-admin.php:147
+msgid "Migration tools"
+msgstr "Ferramentas de migração"
+
+#: includes/class-admin.php:150
+msgid "Export"
+msgstr "Exportar"
+
+#: includes/class-admin.php:151
+msgid "Import"
+msgstr "Importar"
+
+#: includes/class-admin.php:152
+msgid "Backups"
+msgstr "Backups"
+
+#: includes/class-admin.php:159
+msgid "Create a site backup"
+msgstr "Criar um backup do site"
+
+#: includes/class-admin.php:160
+msgid ""
+"Includes your database and everything in wp-content: plugins, themes, media, "
+"must-use plugins, languages and other folders."
+msgstr ""
+"Inclui seu banco de dados e tudo em wp-content: plugins, temas, mídia, "
+"plugins obrigatórios (must-use), idiomas e outras pastas."
+
+#: includes/class-admin.php:161
+msgid ""
+"Pause site edits, orders and other writes during export for a consistent "
+"backup. Processing continues on the server if you close this page; if your "
+"host blocks that, this page continues the work and must stay open."
+msgstr ""
+"Pause edições, pedidos e outras gravações no site durante a exportação para "
+"obter um backup consistente. O processamento continua no servidor se você "
+"fechar esta página; se a sua hospedagem bloquear isso, esta página continua "
+"o trabalho e precisa ficar aberta."
+
+#: includes/class-admin.php:164
+msgid "Find and replace in the database"
+msgstr "Localizar e substituir no banco de dados"
+
+#: includes/class-admin.php:165
+msgid ""
+"Applied when this backup is restored, after the automatic address changes. "
+"Rows with an empty field are ignored."
+msgstr ""
+"Aplicado quando este backup for restaurado, depois das alterações "
+"automáticas de endereço. Linhas com um campo vazio são ignoradas."
+
+#: includes/class-admin.php:167
+msgid "Add find and replace"
+msgstr "Adicionar localizar e substituir"
+
+#: includes/class-admin.php:170
+msgid "Find"
+msgstr "Localizar"
+
+#: includes/class-admin.php:171
+msgid "Replace with"
+msgstr "Substituir por"
+
+#: includes/class-admin.php:172
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/class-admin.php:177 includes/class-admin.php:179
+msgid "Advanced options"
+msgstr "Opções avançadas"
+
+#: includes/class-admin.php:182
+msgid "Do not export spam comments"
+msgstr "Não exportar comentários de spam"
+
+#: includes/class-admin.php:183
+msgid "Do not export post revisions"
+msgstr "Não exportar revisões de posts"
+
+#: includes/class-admin.php:184
+msgid "Do not export media library (files)"
+msgstr "Não exportar a biblioteca de mídia (arquivos)"
+
+#: includes/class-admin.php:185
+msgid "Do not export themes (files)"
+msgstr "Não exportar temas (arquivos)"
+
+#: includes/class-admin.php:186
+msgid "Do not export inactive themes (files)"
+msgstr "Não exportar temas inativos (arquivos)"
+
+#: includes/class-admin.php:187
+msgid "Do not export must-use plugins (files)"
+msgstr "Não exportar plugins obrigatórios (arquivos)"
+
+#: includes/class-admin.php:188
+msgid "Do not export plugins (files)"
+msgstr "Não exportar plugins (arquivos)"
+
+#: includes/class-admin.php:189
+msgid "Do not export inactive plugins (files)"
+msgstr "Não exportar plugins inativos (arquivos)"
+
+#: includes/class-admin.php:190
+msgid "Do not export cache (files)"
+msgstr "Não exportar cache (arquivos)"
+
+#: includes/class-admin.php:191
+msgid "Do not export database (SQL)"
+msgstr "Não exportar o banco de dados (SQL)"
+
+#: includes/class-admin.php:192
+msgid "Do not replace email domain (SQL)"
+msgstr "Não substituir o domínio dos e-mails (SQL)"
+
+#: includes/class-admin.php:197
+msgid "Protect this backup with a password"
+msgstr "Proteger este backup com uma senha"
+
+#: includes/class-admin.php:199 includes/class-crypto.php:144
+msgid ""
+"Password protection requires the PHP OpenSSL extension with AES-256-GCM."
+msgstr "A proteção por senha exige a extensão OpenSSL do PHP com AES-256-GCM."
+
+#: includes/class-admin.php:202
+msgid "Password"
+msgstr "Senha"
+
+#: includes/class-admin.php:203
+msgid "Repeat password"
+msgstr "Repita a senha"
+
+#: includes/class-admin.php:204
+msgid ""
+"The database and file contents are encrypted. File names and site addresses "
+"stay readable. A lost password cannot be recovered."
+msgstr ""
+"O banco de dados e o conteúdo dos arquivos são criptografados. Nomes de "
+"arquivos e endereços do site continuam legíveis. Uma senha perdida não pode "
+"ser recuperada."
+
+#: includes/class-admin.php:208
+msgid "Always excluded"
+msgstr "Sempre excluído"
+
+#: includes/class-admin.php:209
+msgid "WordPress core, wp-config.php and server configuration."
+msgstr "Arquivos do WordPress, wp-config.php e configuração do servidor."
+
+#: includes/class-admin.php:210
+msgid ""
+"Backup folders of migration plugins, WordPress upgrade folders and version-"
+"control metadata."
+msgstr ""
+"Pastas de backup de plugins de migração, pastas de atualização do WordPress "
+"e metadados de controle de versão."
+
+#: includes/class-admin.php:211
+msgid ""
+"Boat Backup & Migration itself and host drop-ins such as object-cache.php "
+"and advanced-cache.php."
+msgstr ""
+"O próprio Boat Backup & Migration e drop-ins da hospedagem, como object-"
+"cache.php e advanced-cache.php."
+
+#: includes/class-admin.php:213
+msgid "Export site"
+msgstr "Exportar site"
+
+#: includes/class-admin.php:217
+msgid "Import a backup"
+msgstr "Importar um backup"
+
+#: includes/class-admin.php:218
+msgid ""
+"Choose a .wpboat backup created by this version of Boat Backup & Migration. "
+"The package is verified before anything on this site changes."
+msgstr ""
+"Escolha um backup .wpboat criado por esta versão do Boat Backup & Migration. "
+"O pacote é verificado antes de qualquer alteração neste site."
+
+#: includes/class-admin.php:221
+msgid "Drag a .wpboat backup here, or choose a file"
+msgstr "Arraste um backup .wpboat para cá ou escolha um arquivo"
+
+#: includes/class-admin.php:224
+msgid ""
+"Uploads use small parts. If interrupted, select the same file and resume. "
+"Only .wpboat packages are accepted."
+msgstr ""
+"O envio usa partes pequenas. Se for interrompido, selecione o mesmo arquivo "
+"e retome. Apenas pacotes .wpboat são aceitos."
+
+#: includes/class-admin.php:225
+msgid "Upload and verify"
+msgstr "Enviar e verificar"
+
+#: includes/class-admin.php:229
+msgid "Local backups"
+msgstr "Backups locais"
+
+#: includes/class-admin.php:230
+msgid ""
+"Backups can contain passwords, personal data and executable plugin files. "
+"Only restore packages from a source you trust."
+msgstr ""
+"Backups podem conter senhas, dados pessoais e arquivos executáveis de "
+"plugins. Restaure apenas pacotes de uma origem confiável."
+
+#: includes/class-admin.php:232
+msgid "Backup"
+msgstr "Backup"
+
+#: includes/class-admin.php:235
+msgid "Actions"
+msgstr "Ações"
+
+#: includes/class-admin.php:236
+msgid "Loading backups…"
+msgstr "Carregando backups…"
+
+#: includes/class-admin.php:239
+msgid "Private storage:"
+msgstr "Armazenamento privado:"
+
+#: includes/class-admin.php:239
+msgid ""
+"No commercial size quota. Available disk space and hosting resources still "
+"apply. Backups are preserved when the plugin is removed."
+msgstr ""
+"Sem limite comercial de tamanho. O espaço em disco e os recursos da "
+"hospedagem continuam sendo necessários. Os backups são preservados quando o "
+"plugin é removido."
+
+#: includes/class-archive.php:44
+msgid "The backup is not a readable Boat Backup & Migration ZIP package."
+msgstr "O backup não é um pacote ZIP legível do Boat Backup & Migration."
+
+#: includes/class-archive.php:56
+msgid "Unable to finish the package. Check free disk space."
+msgstr ""
+"Não foi possível finalizar o pacote. Verifique o espaço livre em disco."
+
+#: includes/class-archive.php:85
+msgid "A package segment exceeds the supported size."
+msgstr "Um segmento do pacote excede o tamanho aceito."
+
+#: includes/class-archive.php:96
+msgid "A package descriptor is too large."
+msgstr "Um descritor do pacote é grande demais."
+
+#: includes/class-archive.php:103
+msgid "Unable to write a package record."
+msgstr "Não foi possível gravar um registro do pacote."
+
+#: includes/class-archive.php:118
+msgid "Unable to write the package manifest."
+msgstr "Não foi possível gravar o manifesto do pacote."
+
+#: includes/class-archive.php:133
+msgid "The backup contains an invalid or encrypted descriptor."
+msgstr "O backup contém um descritor inválido ou criptografado."
+
+#: includes/class-archive.php:136 includes/class-archive.php:193
+#: includes/class-storage.php:352
+msgid "Symbolic links are not supported."
+msgstr "Links simbólicos não são compatíveis."
+
+#: includes/class-archive.php:141
+msgid "The backup contains invalid JSON."
+msgstr "O backup contém JSON inválido."
+
+#: includes/class-archive.php:155
+msgid "Unsupported or incomplete Boat Backup & Migration package."
+msgstr "Pacote do Boat Backup & Migration incompatível ou incompleto."
+
+#: includes/class-archive.php:159
+msgid "The package is missing source site information."
+msgstr "Faltam informações do site de origem no pacote."
+
+#: includes/class-archive.php:163
+msgid "The package export options are invalid."
+msgstr "As opções de exportação do pacote são inválidas."
+
+#: includes/class-archive.php:171
+msgid "The package is missing its native SQL dump metadata."
+msgstr "Faltam os metadados do dump SQL nativo no pacote."
+
+#: includes/class-archive.php:188
+msgid "The backup contains an invalid record."
+msgstr "O backup contém um registro inválido."
+
+#: includes/class-archive.php:198
+msgid "Backup checksum verification failed."
+msgstr "A verificação de integridade do backup falhou."
+
+#: includes/class-archive.php:215 includes/class-archive.php:220
+msgid "The package contains an unsafe content path."
+msgstr "O pacote contém um caminho de conteúdo inseguro."
+
+#: includes/class-archive.php:224
+msgid "A package may not overwrite Boat Backup & Migration."
+msgstr "Um pacote não pode sobrescrever o Boat Backup & Migration."
+
+#: includes/class-cli.php:82
+msgid "Provide find and replace values in pairs."
+msgstr "Informe os valores de localizar e substituir em pares."
+
+#: includes/class-cli.php:91
+msgid "Positional values require --replace."
+msgstr "Valores posicionais exigem --replace."
+
+#: includes/class-cli.php:103
+msgid "Backup complete."
+msgstr "Backup concluído."
+
+#. translators: %s: backup file path.
+#: includes/class-cli.php:105
+#, php-format
+msgid "Backup location: %s"
+msgstr "Local do backup: %s"
+
+#: includes/class-cli.php:176
+msgid "Replace the matching files on this site?"
+msgstr "Substituir os arquivos correspondentes deste site?"
+
+#: includes/class-cli.php:176
+msgid ""
+"Replace this site's database, users and matching content? You will need an "
+"administrator login from the source site."
+msgstr ""
+"Substituir o banco de dados, os usuários e o conteúdo correspondente deste "
+"site? Você precisará de um login de administrador do site de origem."
+
+#: includes/class-cli.php:182
+msgid ""
+"Restore complete. Save the permalinks settings once to refresh server "
+"rewrite rules."
+msgstr ""
+"Restauração concluída. Salve as configurações de links permanentes uma vez "
+"para atualizar as regras de reescrita do servidor."
+
+#: includes/class-cli.php:212
+msgid "Label removed."
+msgstr "Rótulo removido."
+
+#: includes/class-cli.php:212
+msgid "Label saved."
+msgstr "Rótulo salvo."
+
+#: includes/class-cli.php:223 includes/class-cli.php:241
+msgid "No active operation."
+msgstr "Nenhuma operação ativa."
+
+#: includes/class-cli.php:249
+msgid "Operation cancelled."
+msgstr "Operação cancelada."
+
+#: includes/class-cli.php:280
+msgid ""
+"This backup is password protected. Run the command again with --"
+"password=<password>."
+msgstr ""
+"Este backup é protegido por senha. Execute o comando novamente com --"
+"password=<senha>."
+
+#: includes/class-cli.php:286
+msgid "The operation stopped before finishing."
+msgstr "A operação parou antes de terminar."
+
+#. translators: %s: error message.
+#: includes/class-cli.php:296
+#, php-format
+msgid ""
+"%s Run `wp boat-backup status`, then retry the command or `wp boat-backup "
+"cancel`."
+msgstr ""
+"%s Execute `wp boat-backup status` e depois repita o comando ou use `wp boat-"
+"backup cancel`."
+
+#: includes/class-cli.php:310 includes/class-engine.php:161
+msgid "Select a .wpboat backup file."
+msgstr "Selecione um arquivo de backup .wpboat."
+
+#: includes/class-cli.php:315 includes/class-engine.php:187
+msgid "Insufficient private storage space. Free disk space and retry."
+msgstr ""
+"Espaço insuficiente no armazenamento privado. Libere espaço em disco e tente "
+"novamente."
+
+#: includes/class-cli.php:319
+msgid "Unable to copy the backup into private storage."
+msgstr "Não foi possível copiar o backup para o armazenamento privado."
+
+#: includes/class-content.php:58
+msgid ""
+"Private storage and wp-content must be writable and on the same filesystem "
+"for reversible restoration."
+msgstr ""
+"O armazenamento privado e wp-content devem permitir gravação e estar no "
+"mesmo sistema de arquivos para uma restauração reversível."
+
+#: includes/class-content.php:140
+msgid "Unable to write the content inventory."
+msgstr "Não foi possível gravar o inventário de conteúdo."
+
+#: includes/class-content.php:262
+msgid "Unable to save the content inventory."
+msgstr "Não foi possível salvar o inventário de conteúdo."
+
+#: includes/class-content.php:276
+msgid "Unable to read the content inventory."
+msgstr "Não foi possível ler o inventário de conteúdo."
+
+#. translators: %s: path relative to wp-content.
+#: includes/class-content.php:304
+#, php-format
+msgid ""
+"A large file was truncated or replaced during export: %s. Start a new export."
+msgstr ""
+"Um arquivo grande foi truncado ou substituído durante a exportação: %s. "
+"Inicie uma nova exportação."
+
+#: includes/class-content.php:311
+msgid "Unable to read a source content file."
+msgstr "Não foi possível ler um arquivo de conteúdo da origem."
+
+#: includes/class-content.php:316
+msgid "Unable to read a source file segment."
+msgstr "Não foi possível ler um segmento de arquivo da origem."
+
+#: includes/class-content.php:349
+msgid "Duplicate or invalid content directory."
+msgstr "Diretório de conteúdo duplicado ou inválido."
+
+#: includes/class-content.php:357
+msgid "Invalid content file metadata."
+msgstr "Metadados de arquivo de conteúdo inválidos."
+
+#: includes/class-content.php:361
+msgid "Duplicate, incomplete or out-of-order file segments."
+msgstr "Segmentos de arquivo duplicados, incompletos ou fora de ordem."
+
+#: includes/class-content.php:367 includes/class-content.php:372
+msgid "Duplicate file in backup."
+msgstr "Arquivo duplicado no backup."
+
+#: includes/class-content.php:381
+msgid "Unable to stage a file. Check available disk space."
+msgstr ""
+"Não foi possível preparar um arquivo. Verifique o espaço disponível em disco."
+
+#: includes/class-content.php:468 includes/class-content.php:484
+msgid "Unable to install staged content files."
+msgstr "Não foi possível instalar os arquivos de conteúdo preparados."
+
+#: includes/class-content.php:479
+msgid "Unable to retain the destination files for recovery."
+msgstr "Não foi possível guardar os arquivos do destino para recuperação."
+
+#: includes/class-content.php:517
+msgid ""
+"File recovery failed. Keep maintenance enabled and inspect the private "
+"recovery directory."
+msgstr ""
+"A recuperação dos arquivos falhou. Mantenha a manutenção ativa e examine o "
+"diretório privado de recuperação."
+
+#: includes/class-content.php:522
+msgid "Unable to restore the previous destination files."
+msgstr "Não foi possível restaurar os arquivos anteriores do destino."
+
+#: includes/class-crypto.php:78
+msgid "The backup password is incorrect."
+msgstr "A senha do backup está incorreta."
+
+#: includes/class-crypto.php:94
+msgid "The backup password protection is invalid."
+msgstr "A proteção por senha do backup é inválida."
+
+#: includes/class-crypto.php:113
+msgid "Unable to encrypt the backup."
+msgstr "Não foi possível criptografar o backup."
+
+#: includes/class-crypto.php:130
+msgid "Backup decryption failed. The file is damaged or the password is wrong."
+msgstr ""
+"Falha ao descriptografar o backup. O arquivo está danificado ou a senha está "
+"errada."
+
+#: includes/class-crypto.php:147
+msgid "Enter a backup password of up to 1024 characters."
+msgstr "Digite uma senha de backup com até 1024 caracteres."
+
+#: includes/class-database.php:67
+msgid "Unsupported database identifier."
+msgstr "Identificador de banco de dados incompatível."
+
+#. translators: %d: MySQL error number.
+#: includes/class-database.php:91
+#, php-format
+msgid ""
+"The database rejected a migration statement (MySQL error %d). Check "
+"permissions and destination compatibility."
+msgstr ""
+"O banco rejeitou um comando de migração (erro MySQL %d). Verifique as "
+"permissões e a compatibilidade do destino."
+
+#. translators: %s: table name.
+#: includes/class-database.php:182
+#, php-format
+msgid "Unable to read the native definition of table %s."
+msgstr "Não foi possível ler a definição nativa da tabela %s."
+
+#: includes/class-database.php:308
+msgid ""
+"Unable to write the SQL dump. Check private storage and free disk space."
+msgstr ""
+"Não foi possível gravar o dump SQL. Verifique o armazenamento privado e o "
+"espaço livre em disco."
+
+#: includes/class-database.php:539
+msgid ""
+"Unable to write a SQL statement within the available memory, packet or "
+"storage limits."
+msgstr ""
+"Não foi possível gravar um comando SQL dentro dos limites disponíveis de "
+"memória, pacote ou armazenamento."
+
+#: includes/class-database.php:562
+msgid "The SQL dump contains an undeclared table or unsupported statement."
+msgstr "O dump SQL contém uma tabela não declarada ou um comando não aceito."
+
+#: includes/class-database.php:571
+msgid "Invalid table drop in the SQL dump."
+msgstr "Comando de remoção de tabela inválido no dump SQL."
+
+#: includes/class-database.php:583
+msgid ""
+"The native table definition requires external resources or contains an "
+"unexpected SQL operation."
+msgstr ""
+"A definição nativa da tabela exige recursos externos ou contém uma operação "
+"SQL inesperada."
+
+#: includes/class-database.php:589
+msgid "Invalid row insert in the SQL dump."
+msgstr "Comando de inserção de registro inválido no dump SQL."
+
+#: includes/class-database.php:593
+msgid "Invalid row arity in the SQL dump."
+msgstr "Quantidade de valores do registro inválida no dump SQL."
+
+#: includes/class-database.php:597
+msgid "Invalid column or literal in the SQL dump."
+msgstr "Coluna ou valor literal inválido no dump SQL."
+
+#: includes/class-database.php:607
+msgid "The SQL dump repeats a column in an insert."
+msgstr "O dump SQL repete uma coluna em uma inserção."
+
+#: includes/class-database.php:677
+msgid "An SQL insert refers to an unknown destination column."
+msgstr "Uma inserção SQL se refere a uma coluna desconhecida do destino."
+
+#. translators: 1: table name, 2: database error without SQL or row data.
+#: includes/class-database.php:703
+#, php-format
+msgid "Table %1$s: %2$s"
+msgstr "Tabela %1$s: %2$s"
+
+#: includes/class-engine.php:76
+msgid "Finish or cancel the current operation before starting another."
+msgstr "Conclua ou cancele a operação atual antes de iniciar outra."
+
+#: includes/class-engine.php:79
+msgid "Unsupported migration operation."
+msgstr "Operação de migração incompatível."
+
+#: includes/class-engine.php:155 includes/class-rest.php:213
+#: includes/class-storage.php:405
+msgid "Backup not found."
+msgstr "Backup não encontrado."
+
+#: includes/class-engine.php:205
+msgid "Invalid upload segment."
+msgstr "Segmento de envio inválido."
+
+#: includes/class-engine.php:210
+msgid "Unable to open the uploaded backup."
+msgstr "Não foi possível abrir o backup enviado."
+
+#: includes/class-engine.php:215
+msgid "A repeated upload segment does not match the original."
+msgstr "Um segmento de envio repetido não corresponde ao original."
+
+#: includes/class-engine.php:220
+msgid "Upload interrupted or out of order. Resume from the saved offset."
+msgstr "Envio interrompido ou fora de ordem. Retome a partir da posição salva."
+
+#: includes/class-engine.php:255
+msgid "This is not the active migration operation."
+msgstr "Esta não é a operação de migração ativa."
+
+#: includes/class-engine.php:259
+msgid ""
+"This operation uses an unsupported format. Cancel it and start a new "
+"operation."
+msgstr ""
+"Esta operação usa um formato não aceito. Cancele-a e inicie uma nova "
+"operação."
+
+#: includes/class-engine.php:370 includes/class-engine.php:378
+#: includes/class-engine.php:622
+msgid "Unable to read the SQL dump."
+msgstr "Não foi possível ler o dump SQL."
+
+#: includes/class-engine.php:435
+msgid "Unable to move the finished backup into storage."
+msgstr "Não foi possível mover o backup concluído para o armazenamento."
+
+#: includes/class-engine.php:515
+msgid "The upload is incomplete. Select the same file to resume."
+msgstr "O envio está incompleto. Selecione o mesmo arquivo para retomar."
+
+#: includes/class-engine.php:518
+msgid "Unable to retain the uploaded backup."
+msgstr "Não foi possível guardar o backup enviado."
+
+#: includes/class-engine.php:538
+msgid "The SQL dump table manifest is invalid."
+msgstr "O manifesto de tabelas do dump SQL é inválido."
+
+#: includes/class-engine.php:544
+msgid "The backup is missing WordPress core tables."
+msgstr "Faltam tabelas essenciais do WordPress no backup."
+
+#: includes/class-engine.php:563
+msgid "The SQL dump segments are incomplete or out of order."
+msgstr "Os segmentos do dump SQL estão incompletos ou fora de ordem."
+
+#: includes/class-engine.php:567 includes/class-engine.php:571
+msgid "Unable to stage the SQL dump."
+msgstr "Não foi possível preparar o dump SQL no armazenamento temporário."
+
+#: includes/class-engine.php:579
+msgid "The SQL dump is incomplete."
+msgstr "O dump SQL está incompleto."
+
+#: includes/class-engine.php:582
+msgid "The package contains an incomplete file."
+msgstr "O pacote contém um arquivo incompleto."
+
+#: includes/class-engine.php:594
+msgid "The package is incomplete or its total size is invalid."
+msgstr "O pacote está incompleto ou seu tamanho total é inválido."
+
+#: includes/class-engine.php:629
+msgid "Unable to seek to the saved SQL statement."
+msgstr "Não foi possível localizar o comando SQL salvo."
+
+#: includes/class-engine.php:677
+msgid "The SQL dump is missing a complete table definition or final commit."
+msgstr ""
+"Falta uma definição completa de tabela ou a confirmação final no dump SQL."
+
+#: includes/class-engine.php:723
+msgid "The SQL dump contains out-of-order table statements."
+msgstr "O dump SQL contém comandos de tabelas fora de ordem."
+
+#: includes/class-engine.php:740
+msgid "The WordPress options table is missing."
+msgstr "A tabela de opções do WordPress está ausente."
+
+#: includes/class-engine.php:757
+msgid "Validate and stage the entire backup before restoring."
+msgstr "Valide e prepare todo o backup antes de restaurar."
+
+#: includes/class-engine.php:907
+msgid ""
+"The table switch is incomplete. Preserve the private recovery directory and "
+"database; maintenance remains enabled for administrator recovery."
+msgstr ""
+"A troca de tabelas está incompleta. Preserve o diretório privado de "
+"recuperação e o banco de dados; a manutenção permanece ativa para "
+"recuperação pelo administrador."
+
+#: includes/class-engine.php:925
+msgid ""
+"The interrupted restore was reversed. Review the site, then retry or cancel."
+msgstr ""
+"A restauração interrompida foi revertida. Verifique o site e tente novamente "
+"ou cancele."
+
+#: includes/class-engine.php:1016
+msgid "This operation is not waiting for a password."
+msgstr "Esta operação não está aguardando uma senha."
+
+#: includes/class-engine.php:1092
+msgid "Invalid continuation request."
+msgstr "Solicitação de continuação inválida."
+
+#: includes/class-options.php:56 includes/class-options.php:63
+msgid "The find and replace list is invalid."
+msgstr "A lista de localizar e substituir é inválida."
+
+#: includes/class-plugin.php:62
+msgid ""
+"Boat Backup & Migration requires a single-site installation, 64-bit PHP, "
+"mysqli and the ZipArchive extension."
+msgstr ""
+"O Boat Backup & Migration exige uma instalação de site único, PHP de 64 "
+"bits, mysqli e a extensão ZipArchive."
+
+#: includes/class-plugin.php:112
+msgid ""
+"A site restore is running or needs recovery. Retry shortly. If it persists, "
+"inspect the private Boat Backup & Migration recovery directory."
+msgstr ""
+"Uma restauração está em andamento ou precisa de recuperação. Tente novamente "
+"em instantes. Se persistir, examine o diretório privado de recuperação do "
+"Boat Backup & Migration."
+
+#: includes/class-plugin.php:112
+msgid "Restore in progress"
+msgstr "Restauração em andamento"
+
+#: includes/class-plugin.php:159
+msgid ""
+"The migration could not be stopped safely. Finish or recover the operation "
+"before deactivating the plugin."
+msgstr ""
+"Não foi possível interromper a migração com segurança. Conclua ou recupere a "
+"operação antes de desativar o plugin."
+
+#: includes/class-rest.php:79
+msgid "Sign in as an administrator and reload this page before continuing."
+msgstr "Entre como administrador e recarregue esta página antes de continuar."
+
+#: includes/class-rest.php:128
+msgid "Invalid upload offset."
+msgstr "Posição de envio inválida."
+
+#: includes/class-rest.php:139
+msgid "Confirm replacement of the destination site before restoring."
+msgstr "Confirme a substituição do site de destino antes de restaurar."
+
+#: includes/class-rest.php:160
+msgid "This backup is being used by the active operation."
+msgstr "Este backup está sendo usado pela operação ativa."
+
+#: includes/class-rest.php:164
+msgid "Unable to delete this backup."
+msgstr "Não foi possível excluir este backup."
+
+#: includes/class-rest.php:172
+msgid "Unknown migration action."
+msgstr "Ação de migração desconhecida."
+
+#: includes/class-rest.php:206
+msgid "Administrator access is required."
+msgstr "É necessário acesso de administrador."
+
+#: includes/class-rest.php:217
+msgid "Unable to open the backup."
+msgstr "Não foi possível abrir o backup."
+
+#: includes/class-rewriter.php:116
+msgid "Serialized data exceeds the safe nesting depth."
+msgstr "Os dados serializados excedem a profundidade segura de aninhamento."
+
+#: includes/class-rewriter.php:191
+msgid "Malformed serialized data cannot be safely migrated."
+msgstr "Dados serializados malformados não podem ser migrados com segurança."
+
+#: includes/class-sql.php:30
+msgid ""
+"A SQL statement exceeds the available PHP memory or database packet limit."
+msgstr ""
+"Um comando SQL excede a memória PHP disponível ou o limite de pacote do "
+"banco de dados."
+
+#: includes/class-sql.php:39
+msgid "The SQL dump contains an unexpected statement boundary."
+msgstr "O dump SQL contém uma separação inesperada entre comandos."
+
+#: includes/class-sql.php:46
+msgid "The SQL dump ends inside an unfinished statement."
+msgstr "O dump SQL termina dentro de um comando incompleto."
+
+#: includes/class-sql.php:136
+msgid "The SQL dump contains an unfinished quoted value or comment."
+msgstr "O dump SQL contém um valor entre aspas ou comentário incompleto."
+
+#: includes/class-sql.php:184
+msgid "The SQL dump contains an invalid parenthesized list."
+msgstr "O dump SQL contém uma lista entre parênteses inválida."
+
+#: includes/class-sql.php:210
+msgid "The SQL dump contains unbalanced parentheses."
+msgstr "O dump SQL contém parênteses sem correspondência."
+
+#: includes/class-storage.php:50
+msgid "BOAT_BACKUP_STORAGE_PATH must be an absolute private directory."
+msgstr ""
+"BOAT_BACKUP_STORAGE_PATH deve indicar um diretório privado com caminho "
+"absoluto."
+
+#: includes/class-storage.php:54
+msgid ""
+"Set BOAT_BACKUP_STORAGE_PATH to a writable directory outside the public "
+"document root."
+msgstr ""
+"Defina BOAT_BACKUP_STORAGE_PATH como um diretório gravável fora da raiz "
+"pública do servidor."
+
+#: includes/class-storage.php:58
+msgid ""
+"Private storage is inside the public document root. Set "
+"BOAT_BACKUP_STORAGE_PATH outside it."
+msgstr ""
+"O armazenamento privado está dentro da raiz pública do servidor. Defina "
+"BOAT_BACKUP_STORAGE_PATH fora dela."
+
+#: includes/class-storage.php:70
+msgid "This storage directory belongs to another WordPress installation."
+msgstr ""
+"Este diretório de armazenamento pertence a outra instalação do WordPress."
+
+#: includes/class-storage.php:167 includes/class-storage.php:205
+msgid "Unable to create private storage. Check directory permissions."
+msgstr ""
+"Não foi possível criar o armazenamento privado. Verifique as permissões do "
+"diretório."
+
+#: includes/class-storage.php:208
+msgid "Private storage is not writable."
+msgstr "O armazenamento privado não permite gravação."
+
+#: includes/class-storage.php:227
+msgid "Unable to save migration state. Check free disk space."
+msgstr ""
+"Não foi possível salvar o estado da migração. Verifique o espaço livre em "
+"disco."
+
+#: includes/class-storage.php:241
+msgid "Migration state is missing or too large."
+msgstr "O estado da migração está ausente ou é grande demais."
+
+#: includes/class-storage.php:245
+msgid ""
+"Migration state is invalid. Preserve the private directory for recovery."
+msgstr ""
+"O estado da migração é inválido. Preserve o diretório privado para "
+"recuperação."
+
+#: includes/class-storage.php:259
+msgid "Invalid operation identifier."
+msgstr "Identificador de operação inválido."
+
+#: includes/class-storage.php:334
+msgid "Another migration request is running. Wait and retry."
+msgstr ""
+"Outra solicitação de migração está em andamento. Aguarde e tente novamente."
+
+#: includes/class-storage.php:348
+msgid "Invalid backup name."
+msgstr "Nome de backup inválido."
+
+#: includes/class-storage.php:425
+msgid "Refusing to delete an unowned directory."
+msgstr "A exclusão de um diretório externo foi recusada."
+
+#: includes/class-storage.php:429
+msgid "Unable to remove a temporary file."
+msgstr "Não foi possível remover um arquivo temporário."
+
+#: includes/class-storage.php:436
+msgid "Unable to remove a temporary directory."
+msgstr "Não foi possível remover um diretório temporário."
